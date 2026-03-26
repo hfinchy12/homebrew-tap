@@ -3,11 +3,11 @@ class Makenote < Formula
 
   desc "Fast terminal note logging to GitHub"
   homepage "https://github.com/hfinchy12/makenote"
-  url "https://github.com/hfinchy12/makenote/archive/refs/tags/v1.1.2.tar.gz"
+  url "https://github.com/hfinchy12/makenote/archive/refs/tags/v1.1.3.tar.gz"
   # PLACEHOLDER — compute real hash at release time:
   #   curl -sL "https://github.com/hfinchy12/makenote/archive/refs/tags/v0.1.0.tar.gz" \
   #     | shasum -a 256 | awk '{ print $1 }'
-  sha256 "816da0100f6281911827b5d82ba881727d1cfed245739c80fd2a14842c030173"
+  sha256 "62587e7eaf9b2fb6b96ad8b018b38a362a09b581bd532d79fd021a80319d71da"
   license "MIT"
 
   depends_on "python@3.12"

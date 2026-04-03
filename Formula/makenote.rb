@@ -3,11 +3,11 @@ class Makenote < Formula
 
   desc "Fast terminal note logging to GitHub"
   homepage "https://github.com/hfinchy12/makenote"
-  url "https://github.com/hfinchy12/makenote/archive/refs/tags/v1.1.3.tar.gz"
+  url "https://github.com/hfinchy12/makenote/archive/refs/tags/v1.2.0.tar.gz"
   # PLACEHOLDER — compute real hash at release time:
   #   curl -sL "https://github.com/hfinchy12/makenote/archive/refs/tags/v0.1.0.tar.gz" \
   #     | shasum -a 256 | awk '{ print $1 }'
-  sha256 "62587e7eaf9b2fb6b96ad8b018b38a362a09b581bd532d79fd021a80319d71da"
+  sha256 "1a4ac6f045860fbd78a833c6f5421f899478d7222ff4da79976a3f4cfa230b5b"
   license "MIT"
 
   depends_on "python@3.12"
@@ -17,8 +17,8 @@ class Makenote < Formula
   #   brew update-python-resources --print-only Formula/makenote.rb
   # Run that command after updating url/sha256 above to refresh these hashes.
 resource "click" do
-    url "https://files.pythonhosted.org/packages/3d/fa/656b739db8587d7b5dfa22e22ed02566950fbfbcdc20311993483657a5c0/click-8.3.1.tar.gz"
-    sha256 "12ff4785d337a1bb490bb7e9c2b1ee5da3112e94a8622f26a6c77f5d2fc6842a"
+    url "https://files.pythonhosted.org/packages/57/75/31212c6bf2503fdf920d87fee5d7a86a2e3bcf444984126f13d8e4016804/click-8.3.2.tar.gz"
+    sha256 "14162b8b3b3550a7d479eafa77dfd3c38d9dc8951f6f69c78913a8f9a7540fd5"
   end
 
   resource "prompt-toolkit" do
